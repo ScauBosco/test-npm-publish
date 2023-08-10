@@ -1,5 +1,27 @@
 {
-	"dependencies": {
-		"antd": "^5.8.2"
-	}
+  "name": "networks-assistant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "description": "judge network response status",
+  "author": "boscograb@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^5.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScauBosco/test-npm-publish.git"
+  },
+  "keywords": [
+    "networks-assistant"
+  ],
+  "bugs": {
+    "url": "https://github.com/ScauBosco/test-npm-publish/issues"
+  },
+  "homepage": "https://github.com/ScauBosco/test-npm-publish#readme"
 }
