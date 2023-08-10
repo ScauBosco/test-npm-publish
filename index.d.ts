@@ -1,7 +1,9 @@
-import { message } from "antd";
+interface CodeMessage {
+  [code: number]: string;
+}
 
-export const codeMessage: Record<number, string>;
-
-export function showTips(code: string): void;
+export const codeMessage: CodeMessage;
 
 export function isOk(code: string | number): boolean;
+
+export function showTips(val: { code?: number; text?: string }): void;
